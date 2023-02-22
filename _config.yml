@@ -107,3 +107,9 @@ deploy:
   repo: https://github.com/yanecwb/Hexo.github.io.git
   branch: master
 
+# Local Search搜索功能
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000

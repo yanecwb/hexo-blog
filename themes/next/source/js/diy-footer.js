@@ -14,7 +14,7 @@ $(document).ready(function(e){
 //本站运行时间
 function show_date_time(){
 window.setTimeout("show_date_time()", 1000);
-BirthDay=new Date("1/20/2021 0:0:0");
+BirthDay=new Date("1/05/2022 00:00:00");
 today=new Date();
 timeold=(today.getTime()-BirthDay.getTime());
 sectimeold=timeold/1000
