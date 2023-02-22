@@ -1,7 +1,6 @@
 // 动态心跳
 $(document).ready(function(e){
     // $('.copyright').html('©2021 <i class="fa-fw fas fa-heart card-announcement-animation cc_pointer"></i> By 花猪');
-    console.log($('.footer'));
     $('.footer')[0].style.position = 'absolute'
     $('.footer')[0].style.bottom = '-130px'
     $('.footer')[0].style.width = '100%'
