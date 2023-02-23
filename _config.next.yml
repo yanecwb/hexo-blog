@@ -10,7 +10,7 @@
 override: false
 
 # Console reminder if new version released.
-reminder: false
+reminder: true
 
 # Allow to cache content generation. Introduced in NexT v6.0.0.
 cache:
@@ -143,7 +143,7 @@ menu:
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: false
+  badges: true #菜单中文档数量
 
 
 # ---------------------------------------------------------------

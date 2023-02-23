@@ -57,8 +57,21 @@
     </div>
   {%- endif %}
 
-  <div id="fps" style="z-index:10000;position:fixed;bottom:30px;left:5px;font-size:14px"></div>
+  <div id="fps" style=""></div>
 </body>
   <script type="text/javascript" src="/js/clipboard-use.js"></script>
   <script type="text/javascript" src="/js/diy-footer.js"></script>
 </html>
+
+<style>
+  #fps{
+    padding:0 6px;
+    background-color:rgba(0,0,0,.6  );
+    color:white;
+    z-index:10000;
+    position:fixed;
+    bottom:30px;
+    left:30px;
+    font-size:12px
+  }
+</style>
