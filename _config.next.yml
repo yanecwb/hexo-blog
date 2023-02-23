@@ -64,7 +64,7 @@ footer:
     color: "#ff0000"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
-  copyright:
+  copyright: © By Flechazo
 
   # Powered by Hexo & NexT
   powered: false
@@ -273,7 +273,7 @@ symbols_count_time:
   wpm: 270
   separated_meta: true
   item_text_post: true
-  item_text_total: false
+  item_text_total: true
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: true
@@ -304,8 +304,9 @@ follow_me:
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
 related_posts:
   enable: false
-  title: # Custom header, leave empty to use the default one
-  display_in_home: false
+  title: 相关文章
+  icon: fa fa-heart
+  display_in_home: true
   params:
     maxCount: 5
     #PPMixingRate: 0.0
@@ -416,8 +417,8 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://github.com/yanecwb
   title: Follow me on GitHub
 
 
@@ -738,7 +739,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true

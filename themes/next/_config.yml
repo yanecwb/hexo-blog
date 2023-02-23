@@ -64,14 +64,14 @@ footer:
     color: "#ff0000"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
-  copyright:
+  copyright: 
 
   # Powered by Hexo & NexT
   powered: true
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
-    enable: false
+    enable: true
     icp:
     # The digit in the num of gongan beian.
     gongan_id:
