@@ -34,6 +34,7 @@ $(document).ready(function(e){
     $('.footer')[0].style.position = 'absolute'
     $('.footer')[0].style.bottom = '-150px'
     $('.footer')[0].style.width = '100%'
+    $('.footer')[0].style.backgroundImage: linear-gradient(178deg, rgb(227, 253, 245), #fff);
 })
 
 $(document).ready(function(e){

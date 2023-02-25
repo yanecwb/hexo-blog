@@ -8,7 +8,7 @@ categories:
 # description: 这是显示在首页的概述，正文内容均会被隐藏。
 ---
 
-#### 我之前遇到过这问题，单独设置 tooltip 没效果，geo 下面也有 tooltip 属性，但是也不管用，网上查了一下
+<font size='2'> 我之前遇到过这问题，单独设置 tooltip 没效果，geo 下面也有 tooltip 属性，但是也不管用，网上查了一下</font>
 {% note default %}
 default 提示块标签
 {% endnote %}
